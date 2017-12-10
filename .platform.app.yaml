@@ -1,0 +1,24 @@
+name: app
+#The name is yours to choose
+type: nodejs:8.2
+#Type of the runtime
+build:
+    flavor: none
+dependencies:
+  nodejs:
+    yarn: "0"
+web:
+  commands:
+    start: "yarn serve"
+hooks:
+  build: |
+    echo INSTALLING NATUURMONUMENTEN-REACT WITH YARN
+    yarn
+
+    echo BUILDING NATUURMONUMENTEN-REACT
+    yarn build
+
+    echo ALL BUILD PROCESSES DONE
+
+disk: 512
+# Disk size for app-server
