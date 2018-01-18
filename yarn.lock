@@ -3902,9 +3902,9 @@ hn-react-webform@^0.3.0:
     styled-components "^2.2.3"
     validator "^7.0.0"
 
-hn-react@^1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/hn-react/-/hn-react-1.7.0.tgz#2714e2e0344a1978c1a7903344227ddf56850b99"
+hn-react@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/hn-react/-/hn-react-1.7.1.tgz#d3c84d54c74537e82f9a1b7440664fcbc1c918f2"
   dependencies:
     babel-runtime "^6.25.0"
     get-nested "^4.0.0"

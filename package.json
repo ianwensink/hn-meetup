@@ -26,7 +26,7 @@
     "get-nested": "^4.0.0",
     "gsap": "^1.20.3",
     "hn": "^0.6.0",
-    "hn-react": "^1.7.0",
+    "hn-react": "^1.7.1",
     "hn-react-webform": "^0.3.0",
     "html-entities": "^1.2.1",
     "http-proxy-middleware": "^0.17.4",
